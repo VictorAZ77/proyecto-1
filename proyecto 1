@@ -1,0 +1,11 @@
+import random
+import string
+
+def generar_clave(longitud):
+    caracteres = string.ascii_letters + string.digits + string.punctuation
+    clave = ''.join(random.choice(caracteres) for _ in range(longitud))
+    return clave
+
+longitud_clave = 12  # Puedes ajustar la longitud de la clave aquí
+clave_generada = generar_clave(longitud_clave)
+print("Clave generada:", clave_generada)
