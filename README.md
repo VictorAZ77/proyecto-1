@@ -1,5 +1,8 @@
 Jueves, 29 de agosto
 Explicativo del código:
+El código a continuación genera claves o contraseñas aleatorias con un número específico de caracteres utilizando números, letras y signos de puntuación.
+
+
 1- En primer lugar se importa los módulos random y string. El módulo random tiene funciones para generar números aleatorios. String, contienen varias constantes y clases,
 las cuales están relacionadas con las cadenas de caracteres.
 2- Se define la función:
